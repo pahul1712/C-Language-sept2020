@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	
+	char name[30];
+	int rn,marks;
+	
+	printf("\nname of the student : ");
+	scanf("%s",name);
+	
+	printf("\nyour roll number : ");
+	scanf("%d",&rn);
+	printf("\nEnter marks : ");
+	scanf("%d",&marks);
+	if(marks>=69)
+	{
+		if(marks>84)
+		     printf("\noverall grade is A");
+		     
+	    else
+	         printf("\noverall grade is B");
+	        
+	}
+	else if(marks>=55)
+	       printf("\noverall grade is C");
+	       
+	else if(marks>=40)
+	       printf("\noverall grade is D");
+		   
+    else
+           printf("\noverall garde is F");
+           
+           
+    return 0;
+           
+	
+}
